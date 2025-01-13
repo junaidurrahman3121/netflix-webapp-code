@@ -20,7 +20,7 @@
             </div>
             <div class="form-control">
                 <input type="password" required>
-                <label>SECRET</label>
+                <label>SECRET1</label>
             </div>
             <button type="submit">WELCOME TO NETFLIX</button>
             <div class="form-help"> 

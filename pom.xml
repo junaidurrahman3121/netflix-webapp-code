@@ -8,10 +8,9 @@
 	<name>RAHAM NTEFLIX APP</name>
 	<url>http://maven.apache.org</url>
 	
-<properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>	
+	<properties>
+		<docker.image.prefix>kammana</docker.image.prefix>
+	</properties>	
 	<dependencies>
 		<dependency>
 		    <groupId>com.oracle.bedrock</groupId>
@@ -25,19 +24,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-                      
-        </pluginManagement>
-        <!-- To use the plugin goals in your POM or parent POM -->
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-          </plugin>
-          ...
-        </plugins>
-      </build>
-      ...
-    </project>
+
 	</dependencies>
 	
 	<distributionManagement>

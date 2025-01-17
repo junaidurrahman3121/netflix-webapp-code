@@ -8,12 +8,8 @@
 	<name>RAHAM NTEFLIX APP</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
-
-	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>	
 	<dependencies>
 		<dependency>
